@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  map_id: 1
+  world_config_id: 1
+  final: MyString
+  data: 
+
+two:
+  name: MyString
+  map_id: 1
+  world_config_id: 1
+  final: MyString
+  data: 

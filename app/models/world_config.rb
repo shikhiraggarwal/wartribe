@@ -1,0 +1,2 @@
+class WorldConfig < ApplicationRecord
+end

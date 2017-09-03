@@ -1,0 +1,2 @@
+class Wilderness < ApplicationRecord
+end
