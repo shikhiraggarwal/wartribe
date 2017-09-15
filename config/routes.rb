@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'game/init'
+
   namespace :admin do
     get 'index/index'
   end

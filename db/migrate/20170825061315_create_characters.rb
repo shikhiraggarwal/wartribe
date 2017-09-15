@@ -3,6 +3,7 @@ class CreateCharacters < ActiveRecord::Migration[5.1]
     create_table :characters do |t|
       t.string :name
       t.integer :player_id
+      t.integer :world_id
       t.integer :substitute1_id
       t.integer :substitute2_id
       t.string :substitute1_permission, limit: 25

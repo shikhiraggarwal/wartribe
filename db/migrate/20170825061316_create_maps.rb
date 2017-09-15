@@ -3,7 +3,7 @@ class CreateMaps < ActiveRecord::Migration[5.1]
     create_table :maps do |t|
       t.string :name
       t.integer :size, limit: 3
-      t.blob :data
+      t.longblob :data
 
       t.timestamps
     end

@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20170825062719) do
   create_table "characters", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name"
     t.integer "player_id"
+    t.integer "world_id"
     t.integer "substitute1_id"
     t.integer "substitute2_id"
     t.string "substitute1_permission", limit: 25
@@ -45,7 +46,7 @@ ActiveRecord::Schema.define(version: 20170825062719) do
   create_table "maps", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "name"
     t.integer "size", limit: 3
-    t.binary "data"
+    t.binary "data", limit: 4294967295
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["name"], name: "index_maps_on_name", unique: true
