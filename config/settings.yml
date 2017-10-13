@@ -1,0 +1,6 @@
+development:
+  redis: 127.0.0.1:6379
+  memcached: 127.0.0.1:11211
+production:
+  redis: 127.0.0.1:6379
+  memcached: 127.0.0.1:11211

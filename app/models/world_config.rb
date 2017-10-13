@@ -1,8 +1,8 @@
 class WorldConfig < ApplicationRecord
 	has_many :worlds
 
-	def create
-		world_config = WorldConfig,create_new
+	def self.create_new_config
+		world_config = WorldConfig.new
 		world_config.name = "General"
 		world_config.data = "{}"
 		world_new_config = world_config.save

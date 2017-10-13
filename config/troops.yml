@@ -1,0 +1,420 @@
+troops:
+  tribe_1: 
+   tt_i: 
+    buccaneer: 
+     d: 190
+     i_a: 200
+     c_a: 120
+     s_a: 240
+     s: 11
+     c: 40
+     c_w: 50
+     c_c: 100
+     c_i: 55
+     c_f: 35
+     u: 1
+    mantlet: 
+     d: 400
+     i_a: 120
+     c_a: 110
+     s_a: 120
+     s: 12
+     c: 60
+     c_w: 70
+     c_c: 60
+     c_i: 90
+     c_f: 20
+     u: 1
+    doppelsoldner: 
+     d: 250
+     i_a: 240
+     c_a: 260
+     s_a: 250
+     s: 9
+     c: 40
+     c_w: 130
+     c_c: 100
+     c_i: 140
+     c_f: 50
+     u: 1
+   tt_c: 
+    hussar: 
+     d: 970
+     i_a: 190
+     c_a: 200
+     s_a: 240
+     s: 17
+     c: 80
+     c_w: 250
+     c_c: 190
+     c_i: 100
+     c_f: 80
+     u: 2
+    cossack: 
+     d: 710
+     i_a: 190
+     c_a: 200
+     s_a: 240
+     s: 15
+     c: 75
+     c_w: 200
+     c_c: 360
+     c_i: 270
+     c_f: 90
+     u: 3
+   tt_s: 
+    "eagle scout": 
+     d: 140
+     i_a: 0
+     c_a: 0
+     s_a: 0
+     s: 14
+     c: 0
+     c_w: 60
+     c_c: 70
+     c_i: 40
+     c_f: 30
+     u: 1
+   tt_se: 
+    ram: 
+     d: 940
+     a: 420
+     s: 5
+     c: 0
+     c_w: 420
+     c_c: 270
+     c_i: 210
+     c_f: 100
+     u: 4
+    trebuchet: 
+     d: 900
+     a: 480
+     s: 4
+     c: 0
+     c_w: 250
+     c_c: 480
+     c_i: 470
+     c_f: 150
+     u: 5
+  tribe_2: 
+   tt_i: 
+    "colonial militia": 
+     d: 200
+     i_a: 190
+     c_a: 170
+     s_a: 190
+     s: 10
+     c: 50
+     c_w: 60
+     c_c: 90
+     c_i: 60
+     c_f: 30
+     u: 1
+    macehualtin: 
+     d: 380
+     i_a: 130
+     c_a: 120
+     s_a: 120
+     s: 11
+     c: 45
+     c_w: 60
+     c_c: 70
+     c_i: 120
+     c_f: 20
+     u: 1
+    prowler: 
+     d: 230
+     i_a: 300
+     c_a: 220
+     s_a: 250
+     s: 10
+     c: 50
+     c_w: 100
+     c_c: 150
+     c_i: 115
+     c_f: 55
+     u: 1
+   tt_c: 
+    lancer: 
+     d: 1050
+     i_a: 180
+     c_a: 200
+     s_a: 160
+     s: 21
+     c: 90
+     c_w: 210
+     c_c: 110
+     c_i: 200
+     c_f: 80
+     u: 2
+    uhlan: 
+     d: 820
+     i_a: 390
+     c_a: 380
+     s_a: 410
+     s: 20
+     c: 75
+     c_w: 270
+     c_c: 350
+     c_i: 230
+     c_f: 100
+     u: 3
+   tt_s: 
+    "cavalry scout": 
+     d: 200
+     i_a: 0
+     c_a: 0
+     s_a: 0
+     s: 20
+     c: 0
+     c_w: 110
+     c_c: 90
+     c_i: 70
+     c_f: 30
+     u: 2
+   tt_se: 
+    "capped ram": 
+     d: 950
+     a: 440
+     s: 5
+     c: 0
+     c_w: 410
+     c_c: 190
+     c_i: 330
+     c_f: 70
+     u: 4
+    "siege onager": 
+     d: 890
+     a: 470
+     s: 4
+     c: 0
+     c_w: 290
+     c_c: 510
+     c_i: 450
+     c_f: 90
+     u: 5
+  tribe_3: 
+   tt_i: 
+    "cross axeman": 
+     d: 180
+     i_a: 180
+     c_a: 200
+     s_a: 200
+     s: 10
+     c: 60
+     c_w: 70
+     c_c: 80
+     c_i: 50
+     c_f: 40
+     u: 1
+    condottiero: 
+     d: 410
+     i_a: 110
+     c_a: 120
+     s_a: 120
+     s: 9
+     c: 50
+     c_w: 70
+     c_c: 100
+     c_i: 60
+     c_f: 30
+     u: 1
+   tt_c: 
+    knight: 
+     d: 600
+     i_a: 300
+     c_a: 320
+     s_a: 280
+     s: 17
+     c: 80
+     c_w: 250
+     c_c: 160
+     c_i: 150
+     c_f: 80
+     u: 2
+    cataphract: 
+     d: 980
+     i_a: 190
+     c_a: 220
+     s_a: 200
+     s: 16
+     c: 70
+     c_w: 170
+     c_c: 270
+     c_i: 180
+     c_f: 80
+     u: 2
+    boyar: 
+     d: 750
+     i_a: 410
+     c_a: 390
+     s_a: 410
+     s: 15
+     c: 50
+     c_w: 200
+     c_c: 310
+     c_i: 380
+     c_f: 110
+     u: 3
+   tt_s: 
+    pathfinder: 
+     d: 190
+     i_a: 0
+     c_a: 0
+     s_a: 0
+     s: 15
+     c: 0
+     c_w: 70
+     c_c: 100
+     c_i: 70
+     c_f: 40
+     u: 1
+   tt_se: 
+    "scorpian ram": 
+     d: 960
+     a: 370
+     s: 5
+     c: 0
+     c_w: 400
+     c_c: 310
+     c_i: 180
+     c_f: 110
+     u: 4
+    mangonel: 
+     d: 880
+     a: 520
+     s: 4
+     c: 0
+     c_w: 330
+     c_c: 470
+     c_i: 420
+     c_f: 140
+     u: 5
+  "tribe_4": 
+   tt_i: 
+    swordsman: 
+     d: 210
+     i_a: 200
+     c_a: 190
+     s_a: 160
+     s: 10
+     c: 60
+     c_w: 90
+     c_c: 100
+     c_i: 50
+     c_f: 40
+     u: 1
+    tarkan: 
+     d: 460
+     i_a: 100
+     c_a: 90
+     s_a: 120
+     s: 11
+     c: 50
+     c_w: 100
+     c_c: 40
+     c_i: 100
+     c_f: 30
+     u: 1
+   tt_c: 
+    paladin: 
+     d: 560
+     i_a: 300
+     c_a: 390
+     s_a: 280
+     s: 19
+     c: 100
+     c_w: 280
+     c_c: 170
+     c_i: 150
+     c_f: 100
+     u: 2
+    "imperial camel": 
+     d: 1100
+     i_a: 160
+     c_a: 190
+     s_a: 200
+     s: 18
+     c: 75
+     c_w: 290
+     c_c: 370
+     c_i: 250
+     c_f: 110
+     u: 3
+    cavalier: 
+     d: 770
+     i_a: 500
+     c_a: 400
+     s_a: 430
+     s: 14
+     c: 60
+     c_w: 260
+     c_c: 340
+     c_i: 450
+     c_f: 110
+     u: 4
+   tt_s: 
+    "cadre spy": 
+     d: 210
+     i_a: 0
+     c_a: 0
+     s_a: 0
+     s: 22
+     c: 0
+     c_w: 100
+     c_c: 110
+     c_i: 70
+     c_f: 40
+     u: 2
+   tt_se: 
+    "battering ram": 
+     d: 970
+     a: 390
+     s: 5
+     c: 0
+     c_w: 310
+     c_c: 400
+     c_i: 220
+     c_f: 80
+     u: 4
+    catapult: 
+     d: 900
+     a: 480
+     s: 4
+     c: 0
+     c_w: 360
+     c_c: 490
+     c_i: 360
+     c_f: 110
+     u: 5
+  common: 
+   petard: 
+    d: 100
+    a: 1100
+    s: 6
+    c: 0
+    c_w: 550
+    c_c: 400
+    c_i: 600
+    c_f: 50
+    u: 2
+   settler: 
+    d: 600
+    a: 0
+    s: 12
+    c: 4000
+    c_w: 9000
+    c_c: 7000
+    c_i: 7500
+    c_f: 6500
+    u: 6
+   chief: 
+    d: 2000
+    a: 0
+    s: 8
+    c: 0
+    c_w: 30000
+    c_c: 35000
+    c_i: 40000
+    c_f: 20000
+    u: 15
